@@ -1,4 +1,4 @@
-# prometheus-kafka-adapter
+# prometheus-kafka
 
 #### 介绍
 prometheus kafka 消息队列适配器，用于将prometheus 采集数据写入kafka
@@ -14,8 +14,8 @@ prometheus kafka 消息队列适配器，用于将prometheus 采集数据写入k
 1. 参考Dockerfile 打包镜像
 
 ```
-$ docker build -t registry.cn-hangzhou.aliyuncs.com/test/prometheus-kafka-adapter:1.6 .'
-$ docker push registry.cn-hangzhou.aliyuncs.com/test/prometheus-kafka-adapter:1.6 
+$ docker build -t registry.cn-hangzhou.aliyuncs.com/test/prometheus-kafka:1.6 .'
+$ docker push registry.cn-hangzhou.aliyuncs.com/test/prometheus-kafka:1.6 
 ```
 
 
