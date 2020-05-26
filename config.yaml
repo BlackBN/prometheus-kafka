@@ -1,0 +1,9 @@
+kafka.verify: false
+kafka.ca: ""
+kafka.key: ""
+kafka.certificate: ""
+kafka.verbose: false
+kafka.brokers: "kafka-01:9092,kafka-02:9092"
+kafka.topic: "k8sMonitor"
+web.listen.addr: :9201
+web.telemetry.path: /metrics

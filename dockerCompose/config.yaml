@@ -1,0 +1,17 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: prometheus-kafka-adapter-config
+
+data:
+  config.yaml: |
+    kafka.verify: false
+    kafka.ca: ""
+    kafka.key: ""
+    kafka.certificate: ""
+    kafka.verbose: false
+    kafka.brokers: "kafka-01:9092,kafka-02:9092"
+    kafka.topic: "nginx_log"
+    web.listen.addr: :9201
+    web.telemetry.path: /metrics
+
